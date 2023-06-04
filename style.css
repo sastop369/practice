@@ -1,0 +1,288 @@
+body {
+    padding-bottom: 20px;
+    background-color: #d8c3a575;
+}
+  
+.navbar {
+    margin-bottom: 20px;
+    background-color: #f0eee7;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 1px #E85A4F;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.04);
+}
+
+a.navbar-brand{
+    color: #E85A4F;
+}
+
+a.navbar-brand:hover{
+    color: #e3aaa6;
+}
+
+p{
+    text-align: justify;
+    color:#EAE7DC;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+img.logo{
+    height: 10%;
+    width: 10%;
+}
+
+footer{
+    text-align: end;
+    background-color: #b0433b;
+    color: #EAE7DC;
+    padding-right: 1%;
+    font-family: 'Montserrat', sans-serif;
+    position: fixed;
+    margin-top: 30px;
+}
+
+h3{
+    font-size: 30px;
+    color: #b0433b;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 20px;
+}
+
+h5{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 19px;
+    color: #b0433b;
+    text-align: justify;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+pre{
+  margin-top: 30px;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  color: #b0433b;
+  font-size: 25px;
+}
+
+p.card-text{
+    margin-bottom: 3px;
+    font-size: 15px;
+    color: #b0433b;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.card{
+    border-radius: 10px;
+    background-color: #d8c3a575 !important; 
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+a{
+    color: #b0433b;
+}
+
+a:hover{
+    color: #b56f6a;
+    transition: 0.5s;
+}
+
+.img-top{
+    max-width: 95%;
+    display:block;
+    border-radius: 10px;
+    border: 1px solid #c3b3b4;
+    margin-top: 2%;
+}
+
+p.card-footer{
+    margin-bottom: 0px;
+    padding: 0px;
+}
+
+.btn{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #b0433b;
+    border-color: #b0433b;
+}
+
+.btn:hover{
+    background-color: #bb3b32;
+    border-color: #bb3b32;
+}
+
+button.btn{
+    color: #EAE7DC;
+    background-color: #b0433b;
+}
+
+.flexBox {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 100%
+  }
+  
+  .mathCard {
+    background: white;
+    border-radius: 0.25rem;
+    padding: 4rem;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.04);
+  }
+  
+  .questionText {
+    padding-bottom: 2rem
+  }
+  
+  .svg {
+    height: 24px;
+    width: 24px;
+  }
+  
+  .correctAnswer {
+    color: #34a853;
+    font-size: 1.5rem
+  }
+
+  .buttonPizza {
+    border-radius: 50%;
+  }
+
+  img{
+    height: 350px;
+    width: 350px;
+  }
+
+  #button{
+    border: 0;
+    margin: 0;
+    background-color: #d8c3a500;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+  #button:active{
+    background-color: rgba(210, 156, 115, 0.664);
+  }
+
+  .click{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 27px;
+    margin-bottom: 20px;
+  }
+
+
+
+  .game {
+    width: 600px;
+    height: 250px;
+    margin: auto;
+    background-image: url(images/vektor-zakat-ptitsy-gorizont.jpg);
+    border-radius: 10px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.05);
+    margin-bottom: 50px;
+  }
+  
+  #dog {
+    width: 70px;
+    height: 70px;
+    background-image: url(images/dog.png);
+    background-size: 70px 70px;
+    position: relative;
+    top: 156px;
+    left: 5px;
+  }
+  
+  .jump {
+    animation: jump 0.3s linear;
+  }
+  
+  @keyframes jump {
+    0% {
+      top: 156px;
+    }
+  
+    30% {
+      top: 90px;
+    }
+  
+    50% {
+      top: 70px;
+    }
+  
+    80% {
+      top: 90px;
+    }
+  
+    100% {
+      top: 156px;
+    }
+  }
+  
+  #tree {
+    width: 35px;
+    height: 35px;
+    position: relative;
+    top: 125px;
+    left: 580px;
+  
+    background-image: url("images/tree.png");
+    background-size: 35px 35px;
+  
+    animation: block 1.5s infinite linear;
+  }
+  
+  @keyframes block {
+    0% {
+      left: 580px;
+    }
+  
+    100% {
+      left: -20px;
+    }
+  }
+
+  #score{
+    position: relative;
+    text-align: right;
+    color: #EAE7DC;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 10px;
+    margin-right: 10px;
+  }
+
+  h9{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: #b0433b;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+@media screen and (max-width: 800px)
+{
+    .card h5{
+        font-size: 16px;
+    }
+    .card p{
+        font-size: 14px;
+    }
+    button.btn{
+        font-size: 12px;
+    }
+    a.nav-link{
+        font-size: 14px;
+    }
+    p{
+        font-size: 14px;
+    }
+    .game {
+      width: 380px;
+      height: 250px;
+    }
+    
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1"/>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300&family=Poppins:wght@100&display=swap" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script> 
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+        <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        <title>EasyGame</title>
+        <link rel="icon" href="images/logo.png" type="image/x-icon">
+    </head>
+    <body>
+        <main>
+        <nav class="navbar navbar-dark sticky-top" aria-label="First navbar example">
+            <div class="container-fluid">
+              <a class="navbar-brand"  href="index.html"><img src="images/favicon.png" class="logo" alt="Логотип"> EasyGame</a>
+            </div>
+        </nav>
+
+        <body onload="randomCreator()">
+    <div class="container-fluid">
+        <h3>Развлекательная математика</h3>
+        <h5>Игра "Развлекательная математика" - это онлайн тренажер для решения математических примеров прямо дома. 
+          В любое свободное время можно самостоятельно решать примеры сидя за компьютером.
+          В случае затруднения вы всегда можете нажать на кнопку "Посмотреть ответ" или "Изменить пример".</h5>
+        <div class="flexBox">
+          <div class="mathCard bg-warning" style="--bs-bg-opacity: .4;">
+            <h1 class="text-center" style="font-size: 50px; color: #b0433b;">Решите пример:</h1>
+            <div class="mathQuestion">
+              <h1 class="display-4 questionText text-center mb-0"></h1>
+            </div>
+            <form id="mathForm">
+              <div class="form-group">
+                <input type="text" class="form-control" id="answerInput" autocomplete="off" placeholder="Введите ваш ответ">
+              </div>
+              <button type="submit" class="btn btn-outline-danger w-100">Ответить</button>
+            </form>
+            <div class="d-flex">
+              <button class="btn btn-outline-danger w-100 mt-3" onclick="randomCreator()">Изменить пример</button>
+              &nbsp;&nbsp;
+              <button class="btn btn-outline-danger w-100 mt-3" onclick="answerHelp()">Посмотреть ответ</button>
+            </div>
+          </div>
+        </div>
+    </div>
+    </main>   
+    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="math.js"></script>
+    <footer class ="sticky-bottom">&copy 2023 Гавриленко А. Е.</footer>
+    </body>
+</html>
